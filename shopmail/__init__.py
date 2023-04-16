@@ -4,9 +4,9 @@ def mailnames():
   return mail
 def passw():
   mail1 = open('C:\\OS\\temp\\programshop\\shopmail\\emails\\passmail1.txt', 'r')
-  mail = [f'mail1 = {mail1.read()}']
-  return mail
+  passmail = [f'{mail1.read()}']
+  return passmail
 def card():
   mail1 = open('C:\\OS\\temp\\programshop\\shopmail\\mail_cards\\mail1.card.txt', 'r')
-  mail = [f'{mail1.read()[11:30]}', f'{mail1.read()[31:34]}', f'{mail1.read()[35:40]}', f'{mail.read()[41:90]}']
-  return mail
+  cardmail = [f'{mail1.read()[11:30]}', f'{mail1.read()[31:34]}', f'{mail1.read()[35:40]}', f'{mail1.read()[41:90]}']
+  return cardmail
